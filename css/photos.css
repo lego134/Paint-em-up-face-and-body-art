@@ -1,0 +1,58 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.right:hover {
+    background-color:yellow;
+}
+.left {
+    height: 1vh;
+}
+
+.images {
+    padding: 5px;
+    border: 4px solid yellow;
+    text-align: center;    
+}
+
+.face {
+    text-align: center;
+    font-size: 30px;
+}
+
+.photos {
+    border: 4px solid greenyellow;
+    height: 100rem;
+    width: 94rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+.small-image {
+    height: 15rem;
+    width: 20rem;
+    border: 5px solid green;
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
