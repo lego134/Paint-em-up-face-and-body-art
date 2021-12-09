@@ -19,7 +19,6 @@ a {
   }
   li a {
     display: block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,7 +44,6 @@ a {
     justify-content: space-around;
 }
 .big-box-two {
-    border: 10px solid black;
     justify-content: space-around;
 }
   .small-box{
@@ -56,6 +54,10 @@ a {
       flex-direction: row;
       justify-content: space-around;
       margin: 36px;
+      background-color: white;
 
       
+  }
+  body {
+      background-color: turquoise;
   }

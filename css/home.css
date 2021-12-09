@@ -64,9 +64,12 @@ h2 {
 }
 .Email {
    text-align: center;
+   font-size: 30px;
 }
-.number {
+.number 
+{
     text-align: center;
+   
 }
 .background-color {
     background-color: cadetblue;

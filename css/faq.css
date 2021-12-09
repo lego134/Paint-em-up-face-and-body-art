@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.title-1 {
+    text-align: center;
+    font-size: 50px;
+}
+.right:hover {
+    background-color:yellow;
+}
+
+.left {
+    height: 1vh;
+}
