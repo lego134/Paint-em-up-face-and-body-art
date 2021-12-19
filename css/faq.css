@@ -31,3 +31,33 @@ a {
 .left {
     height: 1vh;
 }
+
+.informations-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    align-items: left;
+    border: 10px solid green;
+    height: 60rem;
+    width: 60rem;
+}
+
+.information {
+    padding-left: 5vh;
+    padding-right: 5vh;
+    align-items: left;
+    margin: 1rem;
+    border: 1px solid rgb(71, 24, 226);
+    font-size: 25px;
+}
+.carrot {
+    margin:0;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background: black;
+
+}
