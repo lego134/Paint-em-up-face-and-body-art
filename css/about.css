@@ -25,28 +25,45 @@ a {
     padding: 14px 16px;
     text-decoration: none;
   }
-  .right:hover {
+.title-1 {
+    text-align: center;
+    font-size: 50px;
+}
+.right:hover {
     background-color:yellow;
 }
+
 .left {
     height: 1vh;
 }
-.body-safety {
+
+
+.first-about {
     display: flex;
-    flex-direction: column;
+    position: absolute;
+    right: 22%;
+    padding: 10px;
+    height: 500px;
+    width: 700px;
+    
+}
+.text {
+    text-align: center;
+}
+.image {
+    display: block;
+    justify-content:space-around;
+
+   height: 271px;
+   width: 300px;
+
+}
+.informations {
     position: relative;
-    right: -22%;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    align-items: left;
-    background-color: white;
-    width: 1000px;
-    border: 10px solid skyblue;
+    right: -5%;
+    height: 450px;
+    width: 250px;
 }
 body {
-    background-color: sandybrown;
-}
-
-.title-safety {
-    text-align: center;
+    background-color: lavender;
 }
