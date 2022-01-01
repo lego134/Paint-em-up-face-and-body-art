@@ -39,7 +39,7 @@ a {
 
 .service-all {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     margin: 10px;
     padding: 10px;
@@ -91,6 +91,8 @@ h1 {
 }
 
 .title-serice{
+    display: flex;
+    justify-content: space-between;
     margin-top: 100px;
 
 }
