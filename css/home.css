@@ -1,6 +1,7 @@
 .topnav {
     display: flex;
     justify-content: space-between;
+   
 }
 
 ul{
@@ -25,7 +26,22 @@ a {
     padding: 14px 16px;
     text-decoration: none;
   }
+  .background {
+    display: flex;
+    background: url(../image/cover_photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 1510px;
+    position: relative;
+    left: -1vh;
+    padding: 0px;
+}
 .title-1 {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     text-align: center;
     font-size: 100px;
     font-family: 'Dr Sugiyama', cursive;
@@ -37,15 +53,7 @@ a {
 .left {
     height: 1vh;
 }
-.background {
-    background: url(../image/cover_photo.png);
-    background-size: cover;
-    height: 600px;
-    width: 1515px;
-    position: relative;
-    left: -1vh;
-    padding: 0px;
-}
+
 
 
 .images {
@@ -100,7 +108,9 @@ h2 {
     display: flex;
     margin: 30px;
     background: url(../image/blue_brushstroke.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 p {
     display: flex;
