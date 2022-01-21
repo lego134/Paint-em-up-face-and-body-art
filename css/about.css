@@ -50,12 +50,11 @@ a {
 .text {
     text-align: center;
 }
-.image {
+.image img {
     display: block;
     justify-content:space-around;
-
-   height: 271px;
-   width: 300px;
+    height: 271px;
+    width: 300px;
 
 }
 .informations {
