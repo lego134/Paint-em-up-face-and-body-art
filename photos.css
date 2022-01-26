@@ -1,0 +1,16 @@
+.images {
+    margin: 10px 50px;
+  }
+  .photos img{
+      width: 100px;
+  }
+  .images img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+  }
+  .images img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+  
