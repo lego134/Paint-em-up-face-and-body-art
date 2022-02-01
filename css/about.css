@@ -34,7 +34,10 @@ a {
 }
 
 .left {
-    height: 1vh;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
 
