@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="../css/photos.css">
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
+   
     <title>photos</title>
 </head>
 <body>
     <ul class="topnav">
-        <li class="left"><img src="../image/Mouse.jpg" alt="The logo of image"></li> 
+        <li><img class="left" src="../images/logo.png" alt="smiling"></li> 
     <div class="nav">
         <li><a class="right" href="../index.html">Home</a></li>
         <li><a class="right" href="../html/reviews.html">Client Reviews</a></li>
@@ -28,50 +31,25 @@
     <br>
     <br>
     <div class="photos">
-    <div class="small-image">
-        
-        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="../image/Mouse.jpg" height="100%" width="100%" alt="hello">
-    </div>
-    <div class="small-image">
-        <img src="../image/tiger small 5.JPG" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="../image/large body .JPG"  height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="../image/unicorn large 1.JPG" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://images.unsplash.com/photo-1559250591-e2e54b0d9557?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://www.stargazer-products.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/1/0/100ml_face_paint_model_1_1.jpg" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6riQZ-d89SZwet-kWhFGTll7llKLqTiF8ng&usqp=CAU" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://cdn11.bigcommerce.com/s-xbxzkajw15/images/stencil/1280x1280/products/154/486/tiger_face_paint_2__56986.1574893012.jpg?c=2" height="100%" width="100%" alt="">
-    </div>
-    <div class="small-image">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsR_WeVKRLrbuZkHqsmXv6jSFWUILcl8x7A&usqp=CAU" height="100%" width="" alt="">
-    </div>
+        <a class="photos-large" href="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" data-lightbox="myPhotos"> <img class="photos-images" src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  alt=""></a>
+        <a class="photos-large" href="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" data-lightbox="myPhotos"><img class="photos-images" src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg" alt=""></a>
+        <a class="photos-large" href="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" data-lightbox="myPhotos"><img class="photos-images" src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt=""></a>
+        <a class="photos-large" href="../images/Mouse.jpg" data-lightbox="myPhotos"><img class="photos-images" src="../images/Mouse.jpg"  alt="hello"></a>
+        <a class="photos-large" href="../images/tiger small 5.JPG" data-lightbox="myPhotos"><img class="photos-images" src="../images/tiger small 5.JPG"  alt=""></a>
+        <a class="photos-large" href="../images/large body .JPG" data-lightbox="myPhotos"><img class="photos-images" src="../images/large body .JPG"   alt=""></a>
+        <a class="photos-large" href="../images/unicorn large 1.JPG"data-lightbox="myPhotos"><img class="photos-images" src="../images/unicorn large 1.JPG"  alt=""></a>
+        <a class="photos-large" href="https://www.stargazer-products.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/1/0/100ml_face_paint_model_1_1.jpg" data-lightbox="myPhotos"><img class="photos-images"  src="https://www.stargazer-products.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/1/0/100ml_face_paint_model_1_1.jpg"  alt=""></a>
+        <a class="photos-large" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6riQZ-d89SZwet-kWhFGTll7llKLqTiF8ng&usqp=CAU" data-lightbox="myPhotos"><img class="photos-images"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6riQZ-d89SZwet-kWhFGTll7llKLqTiF8ng&usqp=CAU"  alt=""></a>
+        <a class="photos-large" href="https://cdn11.bigcommerce.com/s-xbxzkajw15/images/stencil/1280x1280/products/154/486/tiger_face_paint_2__56986.1574893012.jpg?c=2" data-lightbox="myPhotos"><img class="photos-images"  src="https://cdn11.bigcommerce.com/s-xbxzkajw15/images/stencil/1280x1280/products/154/486/tiger_face_paint_2__56986.1574893012.jpg?c=2"  alt=""></a>
+        <a class="photos-large" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsR_WeVKRLrbuZkHqsmXv6jSFWUILcl8x7A&usqp=CAU" data-lightbox="myPhotos"><img class="photos-images"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsR_WeVKRLrbuZkHqsmXv6jSFWUILcl8x7A&usqp=CAU"  alt=""></a>    
+        <a class="photos-large" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsR_WeVKRLrbuZkHqsmXv6jSFWUILcl8x7A&usqp=CAU" data-lightbox="myPhotos"><img class="photos-images"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGsR_WeVKRLrbuZkHqsmXv6jSFWUILcl8x7A&usqp=CAU"  alt=""></a>
+
     </div>
     <br>
     <br>
-    <h2 class="face">henna</h2> 
+    <h2 class="face">Window paint</h2> 
     <div class="photos">
         <div class="small-image">
-            <img src="https://ar.vogue.me/image_provider/?w=750&h=&zc=1&q=90&cc=ffffff&src=https://en.vogue.me/wp-content/uploads/2019/05/shutterstock_380996011.jpg" height="100%" width="100%" alt="">
         </div>
         <div class="small-image">
             <img src="" alt="">

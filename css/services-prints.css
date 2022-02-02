@@ -34,7 +34,10 @@ a {
 }
 
 .left {
-    height: 1vh;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
 .service-all {
@@ -94,5 +97,4 @@ h1 {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-
 }

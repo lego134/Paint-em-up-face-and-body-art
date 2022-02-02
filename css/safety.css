@@ -29,7 +29,10 @@ a {
     background-color:yellow;
 }
 .left {
-    height: 1vh;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 .body-safety {
     display: flex;

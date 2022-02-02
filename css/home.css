@@ -1,7 +1,7 @@
 .topnav {
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 ul{
@@ -28,7 +28,7 @@ a {
   }
   .background {
     display: flex;
-    background: url(../image/cover_photo.png);
+    background: url(../images/cover_photo.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 1200px;
@@ -49,10 +49,14 @@ a {
 .right:hover {
     background-color:yellow;
 }
-
 .left {
-    height: 1vh;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    
 }
+
 
 
 
@@ -84,8 +88,7 @@ h2 {
    text-align: center;
    font-size: 30px;
 }
-.number 
-{
+.number {
     text-align: center;
    
 }
@@ -112,11 +115,14 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
+   
 p {
     display: flex;
     margin-top: 100px;
     font-size: 25px;
-    font-family: 'Dr Sugiyama', cursive;
+    text-align: center;
+
+    
 }
 footer {
     display: flex;
@@ -134,5 +140,15 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-  
+    
+}
+.reviews-images {
+    border-radius: 20%;
+    height: 250px;
+}
+.contact-Email-number{
+    font-family: 'Comforter', cursive;
+}
+.contact-Email-number:hover{
+    background-color: yellow;
 }
