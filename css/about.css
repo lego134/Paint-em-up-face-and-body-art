@@ -69,3 +69,8 @@ a {
 body {
     background-color: lavender;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

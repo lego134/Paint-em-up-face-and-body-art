@@ -1,7 +1,8 @@
+
 .topnav {
     display: flex;
     justify-content: space-between;
-
+   
 }
 
 ul{
@@ -16,7 +17,7 @@ li {
 }
 a {
     display: block;
-    padding: 8px;
+    margin: 0px;
 
   }
   li a {
@@ -32,7 +33,7 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     height: 1200px;
-    width: 1510px;
+    width: 100%;
     position: relative;
     left: -1vh;
     padding: 0px;
@@ -46,8 +47,11 @@ a {
     font-size: 100px;
     font-family: 'Dr Sugiyama', cursive;
 }
-.right:hover {
-    background-color:yellow;
+.topnav li a:hover:not(.active){
+    background-color: yellow;
+}
+ .topnav li a:hover.active{
+    background-color:blue;
 }
 .left {
     height: 40px;
@@ -58,28 +62,36 @@ a {
 }
 
 
-
-
-.images {
+.images-one-box {
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 43%;
+    
 }
 .photos {
     display: flex;
-    height: 200px;
-    width: 267px;
+    
+    margin: 20px; 
     object-fit: cover; 
-    margin: 20px;   
+  
 }
 
-.images-two {
+.images-two-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
     border-top: 0px;
-    margin: 20px;
+    margin: 0px;
+    height: 200px;
+    width: 267px;
+    left: 43%;
+
 }
 h2 {
     text-align: center;
@@ -97,12 +109,14 @@ h2 {
   
 }
 .transition {
+   margin-bottom: 60px; 
    display: flex;
    justify-content: center;
 }
 .reviews-all {
+    margin-top: 60px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     width: 1000px;
     
     
@@ -110,7 +124,7 @@ h2 {
 .reviews {
     display: flex;
     margin: 30px;
-    background: url(../image/blue_brushstroke.png);
+    background: url(../images/blue_brushstroke.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,10 +144,11 @@ footer {
     background-color: gray;
 }
 .base-all {
+   
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin-top: 0px;
+    margin-top: 60px;
     background-color: gray;
 }
 .reviews-all-two {
@@ -149,6 +164,13 @@ footer {
 .contact-Email-number{
     font-family: 'Comforter', cursive;
 }
-.contact-Email-number:hover{
-    background-color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.transition-2{
+   margin-top: 60px; 
+   display: flex;
+   justify-content: center;
 }
