@@ -32,7 +32,9 @@ a {
 .right:hover {
     background-color:yellow;
 }
-
+.about{
+    background-color: green;
+}
 .left {
     height: 40px;
     background-size: contain;

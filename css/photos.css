@@ -23,8 +23,11 @@ li {
     text-decoration: none;
   }
 
-  .right:hover {
+.right:hover {
     background-color:yellow;
+}
+.photos-navbar{
+  background-color: green;
 }
 .left {
     height: 40px;
