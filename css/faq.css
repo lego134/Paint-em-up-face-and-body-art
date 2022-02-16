@@ -16,9 +16,8 @@ li {
 a {
     display: block;
     padding: 8px;
-
   }
-  li a {
+  li a  {
     display: block;
     color: black;
     text-align: center;
@@ -32,7 +31,9 @@ a {
 .right:hover {
     background-color:yellow;
 }
-
+.faq{
+  background: green;
+}
 .left {
   height: 40px;
   background-size: contain;

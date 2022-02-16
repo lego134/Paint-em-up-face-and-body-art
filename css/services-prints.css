@@ -32,6 +32,9 @@ a {
 .right:hover {
     background-color:yellow;
 }
+.sp-hover{
+    background-color: green;
+}
 
 .left {
     height: 40px;
