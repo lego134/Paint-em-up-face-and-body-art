@@ -20,7 +20,7 @@ a {
   }
   li a {
     display: block;
-    color: black;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -75,4 +75,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  .my-photo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
   }
