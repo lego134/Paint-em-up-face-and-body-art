@@ -30,10 +30,12 @@ a {
   }
   .background {
     display: flex;
-    background: url(../images/cover_photo.png);
-   
-    height: 1200px;
-    width: 100%;
+    background: url(../Background-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 140vh;
+    width: 235vh;
     position: relative;
     padding: 0px;
 }
@@ -62,7 +64,7 @@ a {
 
 
 .images-one-box {
-    margin-top: 5px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -107,7 +109,7 @@ h2 {
   
 }
 .transition {
-   margin-bottom: 60px; 
+   margin-top: 60px; 
    display: flex;
    justify-content: center;
 }

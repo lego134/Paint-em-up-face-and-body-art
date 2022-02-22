@@ -36,6 +36,7 @@ li {
     background-position: center;   
 }
 
+
 .images {
     padding: 5px;
     border: 4px solid yellow;
@@ -49,6 +50,7 @@ li {
 
 .photos {
     display: flex;
+    justify-content: center;
     border: 4px solid greenyellow;
     height: 100rem;
     width: 94rem;
