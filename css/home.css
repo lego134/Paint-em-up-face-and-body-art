@@ -31,11 +31,11 @@ a {
   .background {
     display: flex;
     background: url(../Background-2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
-    height: 140vh;
-    width: 235vh;
+    background-position: center;
+    height: 50rem;
+    width: 100%;
     position: relative;
     padding: 0px;
 }
@@ -70,7 +70,7 @@ a {
     justify-content: center;
     position: relative;
     height: 200px;
-    width: 200px;
+    width: 16.5rem;
     left: 43%;
     
 }
@@ -89,7 +89,7 @@ a {
     border-top: 0px;
     margin: 0px;
     height: 200px;
-    width: 267px;
+    width: 16.5rem;
     left: 43%;
 
 }
@@ -159,7 +159,8 @@ footer {
 }
 .reviews-images {
     border-radius: 20%;
-    height: 250px;
+    height: 15rem;
+    width: 100%;
 }
 .contact-Email-number{
     font-family: 'Comforter', cursive;
@@ -169,10 +170,12 @@ footer {
     padding: 0;
     box-sizing: border-box;
   }
-.transition-2{
-   margin-top: 60px; 
+.transition{
    display: flex;
-   justify-content: center;
+   position: relative;
+   height:50px; 
+   width:500px;
+   left: 30%;
 }
 
    
