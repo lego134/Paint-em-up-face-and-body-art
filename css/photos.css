@@ -22,7 +22,7 @@ l
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    width: 100%;
     gap: 25rem;
 }
 
@@ -73,7 +73,7 @@ li {
 
 
 .images {
-    padding: 5px;
+  padding: 5px; 
     text-align: center;    
 }
 
@@ -157,7 +157,7 @@ li {
         flex-direction: column;
     }
     .nav-item{
-        margin: 10px 0;
+      margin: 10px 0;
     }
     .nav-menu.active{
         left: 0;
@@ -179,7 +179,7 @@ li {
       }
      
     .left{
-        margin-top: 0.5rem;
+      margin-top: 0.5rem;
     }
    .photos-images {
     display: flex;
