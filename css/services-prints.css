@@ -1,7 +1,67 @@
-.topnav {
+header{
+    background-color: gray;
+}
+
+.page-link{
     display: flex;
     justify-content: space-between;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    
+}
+li {
+  list-style: none;
+}
+a {
+    display: block;
+    margin: 0px;
+
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+  }
+  body{
+      height: auto;
+      
+  }
+  .navbar{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 24px;
+  }
+  .nav-menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: auto;
+      gap: 24.7rem;
+  }
+
+  .hamburger{
+      display: none;
+      cursor: pointer;
+  }
+  .bar{
+     display: block; 
+     width: 25px;
+     height: 3px;
+     margin: 5px auto;
+     -webkit-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+     background-color: black;
+  }
 
 ul{
     list-style-type: none;
@@ -47,7 +107,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    border: 5px solid springgreen;
     height: 500px;
 }
 
@@ -101,12 +160,136 @@ h1 {
   }
   .text-2{
         margin-top: 33px;
-        padding: 12px;
+        padding: 10px;
         justify-content: center;
         align-content: center;
         height: 490px;
         width: 700px;
     }
   .informations{
-      margin: 10px;
+      margin: 5px;
+  }
+  .body-informations{
+    display: none;
+    margin-top: 0rem;
+    height: 14rem;
+    width: 8rem;
+    overflow: scroll;
+}
+.body-informations-2{
+    display: none;
+    position: relative;
+    right: 100%;
+    margin-top: 36rem;
+    height: 14rem;
+    width: 8rem;
+    overflow: scroll;
+}
+
+  @media all and (max-width: 768px){
+    .hamburger{
+       display: block; 
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform:translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform:translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+        position:fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: gray;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .page-link{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .navbar{
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+        width: 100%;
+    }
+    .Face-Paint {
+        margin-top: 10rem;
+        position: relative;
+        right: -33%;
+        height: 12.5rem;
+        width: 12.5rem;
+        border-radius: 100%;
+    }
+    .window-Paint {
+        margin-top: 45rem;
+        position: relative;
+        right: 13%;
+        height: 12.5rem;
+        width: 12.5rem;
+       
+    }
+    .informations{
+        display: none;
+        justify-content: center;
+        position: relative;
+        right: 100%;
+        text-align: left;
+    }
+    .informations-2{
+        display: none;
+        justify-content: center;
+        position: relative;
+        right: 100%;
+        text-align: left;
+    }
+  
+    .text-2{
+        margin-top: 40rem;
+        display: flex;
+        position: relative;
+        right: 50%;
+        margin-top: 25rem;
+        padding: 12px;
+        justify-content: center;
+        align-content: center;
+        height: 490px;
+        width: 700px;
+    }
+    .body-informations{
+        margin-top: 0rem;
+        height: 14rem;
+        width: 8rem;
+        overflow: scroll;
+    }
+    .body-informations-2{
+        display: flex;
+        position: relative;
+        right: 100%;
+        margin-top: 36rem;
+        height: 14rem;
+        width: 8rem;
+        overflow: scroll;
+    }
+    h1{
+        display: flex;
+        position: relative;
+        right: -10rem;
+    }
   }
