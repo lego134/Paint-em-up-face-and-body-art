@@ -45,7 +45,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    width: 100%;
     gap: 24.7rem;
 }
 
@@ -67,8 +67,11 @@ body{
 .right:hover {
   background: yellow;
 }
-.home {
+.faq {
   background-color: green;
+}
+.contact-Email-number{
+  font-family: 'Comforter', cursive;
 }
 .left {
   height: 40px;

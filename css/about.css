@@ -5,35 +5,11 @@ header{
 .page-link{
     display: flex;
     justify-content: space-between;
-}
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: gray;
-    
-}
-li {
-  list-style: none;
-}
-a {
-    display: block;
-    margin: 0px;
-
   }
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- 
-  }
-  body{
-      height: auto;
-      
-  }
+  
+  
+  l
+  
   .navbar{
       min-height: 70px;
       display: flex;
@@ -45,10 +21,10 @@ a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: auto;
+      width: 100%;
       gap: 24.7rem;
   }
-
+  
   .hamburger{
       display: none;
       cursor: pointer;
@@ -93,6 +69,9 @@ a {
 }
 .about{
     background-color: green;
+}
+.contact-Email-number{
+    font-family: 'Comforter', cursive;
 }
 .left {
     height: 40px;

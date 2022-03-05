@@ -23,7 +23,7 @@ l
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    gap: 25rem;
+    gap: 24.7rem;
 }
 
 .hamburger{
@@ -63,6 +63,9 @@ li {
 }
 .photos-navbar{
   background-color: green;
+}
+.contact-Email-number{
+  font-family: 'Comforter', cursive;
 }
 .left {
     height: 40px;
