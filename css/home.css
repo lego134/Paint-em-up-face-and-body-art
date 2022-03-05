@@ -46,7 +46,7 @@ a {
       justify-content: space-between;
       align-items: center;
       width: auto;
-      gap: 25rem;
+      gap: 24.7rem;
   }
 
   .hamburger{
@@ -223,6 +223,7 @@ footer {
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        z-index: 1;
     }
     .page-link{
         display: flex;
@@ -246,7 +247,6 @@ footer {
     .background {
         display: flex;
         position: relative;
-        margin-top: 35rem;
         background: url(../Background-2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -254,7 +254,6 @@ footer {
         height: 50rem;
         width: 100%;
         padding: 0px;
-        border: 10px solid blue;
     }
     
     .images-one-box {
@@ -266,7 +265,6 @@ footer {
         margin-bottom: 5rem;
         height: 175rem;
         width: 100%;
-        border: 10px solid blue;
         
     }
     .right:hover {

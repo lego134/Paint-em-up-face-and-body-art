@@ -95,7 +95,9 @@ a {
 .sp-hover{
     background-color: green;
 }
-
+.contact-Email-number{
+    font-family: 'Comforter', cursive;
+}
 .left {
     height: 40px;
     background-size: contain;
