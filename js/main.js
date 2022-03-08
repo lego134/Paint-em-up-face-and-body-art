@@ -1,5 +1,5 @@
 const acc = document.querySelectorAll(".accordion-item-header");
-
+const keyboard = document.querySelectorAll(".accordion-item-header");
 for(let index = 0; index < acc.length; index++) {
     acc[index].addEventListener('click', function() {
     acc[index].classList.toggle('active');
@@ -22,3 +22,21 @@ for(let index = 0; index < acc.length; index++) {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
   })
+function keyBoardPresss(keyPress){
+  if (keyPress.keyCode === 13){
+    
+  }
+}
+for(let i = 0; keyboard.length; i++){
+  keyboard[i].addEventListener("keydown",  function(event){
+    keyboard[i].event.keyCode.toggle("active");
+    let press = keyboard[i].nextElementSibling;
+    if (press.style.maxHeight){
+      press.style.maxHeight = null;
+    }else {
+      press.style.maxHeight = press.scrollHeight + "px";
+      
+    }
+  })
+}
+
