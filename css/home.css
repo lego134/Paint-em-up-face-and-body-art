@@ -64,11 +64,11 @@ a {
   }
   .background {
     display: flex;
-    background: url(../Background-2.jpg);
+    background: url(../images/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50rem;
+    height: 45rem;
     width: 100%;
     position: relative;
     padding: 0px;
