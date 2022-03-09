@@ -6,17 +6,39 @@ header{
     display: flex;
     justify-content: space-between;
   }
-  
-  
-  l
-  
-  .navbar{
-      min-height: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 24px;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    
   }
+  li {
+  list-style: none;
+  }
+  a {
+    display: block;
+    margin: 0px;
+  
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  body{
+      height: auto;
+      
+  }
+  
+  
+  
+  
+  
   .nav-menu{
       display: flex;
       justify-content: space-between;
