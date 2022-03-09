@@ -34,13 +34,7 @@ a {
       height: auto;
       
   }
-  .navbar{
-      min-height: 70px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 24px;
-  }
+  
   .nav-menu{
       display: flex;
       justify-content: space-between;
