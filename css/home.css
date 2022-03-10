@@ -39,8 +39,7 @@ a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: auto;
-      gap: 24.7rem;
+      width: 100%;
   }
 
   .hamburger{
