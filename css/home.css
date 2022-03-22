@@ -11,7 +11,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
     
 }
 li {
@@ -25,7 +25,7 @@ a {
  
   li a {
     display: block;
-    color: white;
+    color: white; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -77,10 +77,10 @@ a {
     font-family: 'Dr Sugiyama', cursive;
 }
 .right:hover {
-    background: yellow;
+    background: gray;
 }
 .home {
-    background-color: green;
+    background-color: orange;
 }
 .left {
     height: 40px;
@@ -89,7 +89,14 @@ a {
     background-position: center;    
     
 }
-
+                
+.logo-images{
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 100px;   
+}
 
 .images-one-box {
     margin-top: 50px;
@@ -164,23 +171,11 @@ p {
     margin-top: 100px;
     font-size: 25px;
     text-align: center;
-
-    
 }
-footer {
-    display: flex;
+.footer-2{
     text-align: center;
-    justify-content: center;
-    background-color: gray;
 }
-.base-all {
-   
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 60px;
-    background-color: gray;
-}
+    
 .reviews-all-two {
     display: flex;
     justify-content: center;
@@ -279,6 +274,7 @@ footer {
         flex-direction: column;
         height: 90rem;
         width: 100%;
+        margin-top: 15rem;
     }
     
     
@@ -379,6 +375,5 @@ footer {
 }
 
 
-    
 }
    

@@ -1,5 +1,5 @@
 header{
-    background-color: gray;
+    background-color: black;
 }
 
 .page-link{
@@ -11,7 +11,7 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
     
   }
   li {
@@ -64,7 +64,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: black;
 }
 li {
     float: left;
@@ -86,10 +86,10 @@ a {
     font-size: 50px;
 }
 .right:hover {
-    background-color:yellow;
+    background: gray;
 }
 .about{
-    background-color: green;
+    background-color: orange;
 }
 .contact-Email-number{
     font-family: 'Comforter', cursive;
@@ -127,9 +127,7 @@ a {
     height: 28.5rem;
     width: 15.5rem;
 }
-body {
-    background-color: lavender;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -142,6 +140,43 @@ body {
     background-position: center;  
 
   }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: center;
+  }
+.base-all {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    margin-top: 100px;
+    background-color: gray;
+}
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+    .footer-2{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+    }
   @media all and (max-width: 768px){
     .hamburger{
        display: block; 
