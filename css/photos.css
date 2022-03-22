@@ -36,7 +36,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: gray;
+    background-color: black;
 }
 li {
     float: left;
@@ -51,10 +51,10 @@ li {
   }
 
 .right:hover {
-    background-color:yellow;
+    background-color:gray;
 }
 .photos-navbar{
-  background-color: green;
+  background-color: orange;
 }
 .contact-Email-number{
   font-family: 'Comforter', cursive;
@@ -122,6 +122,22 @@ li {
     flex-wrap: wrap;
 
   }
+  footer {
+    display: block;
+    color: gray;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.base-all {
+   
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 60px;
+    background-color: gray;
+}
   @media all and (max-width: 768px){
     .hamburger{
        display: block; 
