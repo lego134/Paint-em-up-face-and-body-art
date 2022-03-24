@@ -31,10 +31,15 @@ header{
   
   }
   body{
-      height: auto;
+      margin-top: 51px;
       
   }
-  
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  } 
   
   
   
@@ -140,23 +145,15 @@ a {
     background-position: center;  
 
   }
-  .footer {
+  .footer-2 {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:gray;
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: center
   }
-.base-all {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    width: 100%;
-    margin-top: 100px;
-    background-color: gray;
-}
+
 
     footer {
         position: fixed;
@@ -164,7 +161,7 @@ a {
         bottom: 0;
         width: 100%;
         padding: 10px;
-        color: white;
+        color: b;
         text-align: center;
     }
     .footer-2{
@@ -174,7 +171,6 @@ a {
         width: 100%;
         padding: 10px;
         margin-top: 10px;
-        color: white;
         text-align: center;
     }
   @media all and (max-width: 768px){
