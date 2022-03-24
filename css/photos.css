@@ -1,13 +1,18 @@
 body {
+  margin-top: 51px;
   background-color: wheat;
 }
-
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 
 .page-link{
   display: flex;
   justify-content: space-between;
 }
-
 
 
 
@@ -124,19 +129,10 @@ li {
   }
   footer {
     display: block;
-    color: gray;
+    color: black;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
-
-}
-.base-all {
-   
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 60px;
-    background-color: gray;
 }
   @media all and (max-width: 768px){
     .hamburger{

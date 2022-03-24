@@ -31,8 +31,14 @@ a {
  
   }
   body{
-      height: auto;
+      margin-top: 51px;
       
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
   }
   
   .nav-menu{
@@ -185,7 +191,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
   }
 .base-all {

@@ -32,10 +32,15 @@ a {
  
   }
   body{
-      height: auto;
-      
+      margin-top: 51px;
+        
   }
-  
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
   .nav-menu{
       display: flex;
       justify-content: space-between;
@@ -68,6 +73,7 @@ a {
     padding: 0px;
 }
 .title-1 {
+    margin-top: 51px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;

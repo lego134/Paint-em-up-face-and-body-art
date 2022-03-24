@@ -30,7 +30,11 @@ li a {
   text-decoration: none;
 
 }
-
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .nav-menu{
     display: flex;
@@ -53,13 +57,6 @@ li a {
    background-color: black;
 }
 
-
-.right:hover {
-  background: yellow;
-}
-.faq {
-  background-color: green;
-}
 .contact-Email-number{
   font-family: 'Comforter', cursive;
 }
@@ -151,6 +148,7 @@ button {
     box-sizing: border-box;
   }
   body {
+    margin-top: 51px;
     background-color: #34495e;
     color: white;
   }
@@ -205,7 +203,7 @@ button {
   }
   footer {
     display: block;
-    color: gray;
+    color: white;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
