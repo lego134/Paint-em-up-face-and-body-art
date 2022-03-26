@@ -1,7 +1,6 @@
 header{
   background-color: black;
 }
-
 .page-link{
   display: flex;
   justify-content: space-between;
@@ -28,21 +27,18 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 .navbar{
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 .nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-
 .hamburger{
     display: none;
     cursor: pointer;
@@ -56,7 +52,6 @@ li a {
    transition: all 0.3s ease-in-out;
    background-color: black;
 }
-
 .contact-Email-number{
   font-family: 'Comforter', cursive;
 }
@@ -67,8 +62,6 @@ li a {
   background-position: center;    
   
 }
-
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -140,7 +133,6 @@ button {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
-
 }
 * {
     margin: 0;
@@ -199,8 +191,7 @@ button {
     line-height: 1.5rem;
     border-top: 3px solid;
     border-image: linear-gradient(to right, #008f68, #fac042) 1;
- 
-  }
+ }
   footer {
     display: block;
     color: white;
@@ -259,14 +250,9 @@ button {
         padding: 0 24px;
         width: 100%;
     }
-    
     .right:hover {
         background: yellow;
     }
-    
-    
-
-    
     .reviews {
         display: flex;
         position: relative;
@@ -287,8 +273,6 @@ button {
         height: 50%; 
         width: 100%;
       }
-     
-  
     .left{
         display: none;
     }

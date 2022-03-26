@@ -131,10 +131,7 @@ a {
     display: flex;
     margin: 20px; 
     object-fit: cover; 
-  
 }
-
-
 h2 {
     text-align: center;
 }
@@ -144,11 +141,9 @@ h2 {
 }
 .number {
     text-align: center;
-   
 }
 .background-color {
     background-color: white;
-  
 }
 .transition {
    margin-top: 60px; 
@@ -191,10 +186,10 @@ p {
     border-radius: 20%;
     height: 15rem;
     width: 100%;
-}
+    }
 .contact-Email-number{
     font-family: 'Comforter', cursive;
-}
+    }
 * {
     margin: 0;
     padding: 0;
@@ -262,8 +257,6 @@ p {
         width: 100%;
         padding: 0px;
     }
-    
-    
     .images-one-box {
         display: flex;
         position: relative;
@@ -282,8 +275,6 @@ p {
         width: 100%;
         margin-top: 15rem;
     }
-    
-    
     .right:hover {
         background: yellow;
     }
@@ -291,8 +282,6 @@ p {
     .images-in{
         display: flex;
         width: 100%;
-
-
     }
     .reviews {
         display: flex;
@@ -322,8 +311,6 @@ p {
         margin-top: 73%;
         font-size: 1.5rem;
         text-align: center;
-    
-        
     }
     .left{
         display: none;
@@ -354,7 +341,6 @@ p {
         border-radius: 20%;
         height: 15rem;
         width: 100%;
-       
     }
     .reviews {
         display: flex;
@@ -369,7 +355,6 @@ p {
         position: relative;
         left: 9%
     }
-    
 .reviews-all-two {
     display: flex;
     justify-content: center;
@@ -377,7 +362,6 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 

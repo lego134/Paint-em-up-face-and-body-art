@@ -1,7 +1,6 @@
 header{
     background-color: gray;
 }
-
 .page-link{
     display: flex;
     justify-content: space-between;
@@ -12,7 +11,6 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: gray;
-    
 }
 li {
   list-style: none;
@@ -28,11 +26,9 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
- 
   }
   body{
       margin-top: 51px;
-      
   }
   .navbar{
     position: fixed;
@@ -40,14 +36,12 @@ a {
     width: 100%;
     z-index: 1;
   }
-  
   .nav-menu{
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: auto;
   }
-
   .hamburger{
       display: none;
       cursor: pointer;
@@ -75,7 +69,6 @@ li {
 a {
     display: block;
     padding: 8px;
-
   }
   li a {
     display: block;
@@ -103,14 +96,12 @@ a {
     background-repeat: no-repeat;
     background-position: center;   
 }
-
 .service-all {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     height: 500px;
 }
-
 .Face-Paint {
     margin-top: 33px;
     position: relative;
@@ -119,15 +110,12 @@ a {
     width: 200px;
     border-radius: 100%;
 }
-
-
 .window-Paint {
     margin-top: 33px;
     position: relative;
     right: 13%;
     height: 200px;
     width: 200px;
-   
 }
 .image-one {
     height: 200px;
@@ -141,7 +129,6 @@ h1 {
     position: relative;
     right: -40%;
 }
-
 .title-serice{
     display: flex;
     justify-content: space-evenly;
@@ -157,7 +144,6 @@ h1 {
       margin-bottom: 15px;
       justify-content: center;
       align-content: center;
-    
   }
   .text-2{
         margin-top: 33px;
@@ -259,7 +245,6 @@ footer {
         right: 13%;
         height: 12.5rem;
         width: 12.5rem;
-       
     }
     .informations{
         display: none;
@@ -275,7 +260,6 @@ footer {
         right: 100%;
         text-align: left;
     }
-  
     .text-2{
         margin-top: 40rem;
         display: flex;
