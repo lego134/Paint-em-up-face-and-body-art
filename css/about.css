@@ -1,7 +1,6 @@
 header{
     background-color: black;
 }
-
 .page-link{
     display: flex;
     justify-content: space-between;
@@ -11,8 +10,7 @@ header{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
-    
+    background-color: black;  
   }
   li {
   list-style: none;
@@ -20,7 +18,6 @@ header{
   a {
     display: block;
     margin: 0px;
-  
   }
   li a {
     display: block;
@@ -28,11 +25,9 @@ header{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  
   }
   body{
-      margin-top: 51px;
-      
+      margin-top: 51px;   
   }
   .navbar{
     position: fixed;
@@ -40,17 +35,12 @@ header{
     width: 100%;
     z-index: 1;
   } 
-  
-  
-  
-  
   .nav-menu{
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
   }
-  
   .hamburger{
       display: none;
       cursor: pointer;
@@ -77,7 +67,6 @@ li {
 a {
     display: block;
     padding: 8px;
-
   }
   li a {
     display: block;
@@ -105,16 +94,13 @@ a {
     background-repeat: no-repeat;
     background-position: center;   
 }
-
-
 .first-about {
     display: flex;
     position: absolute;
     right: 22%;
     padding: 10px;
     height: 500px;
-    width: 700px;
-    
+    width: 700px;   
 }
 .text {
     text-align: center;
@@ -124,7 +110,6 @@ a {
     justify-content:space-around;
     height: 271px;
     width: 300px;
-
 }
 .informations {
     position: relative;
@@ -132,7 +117,6 @@ a {
     height: 28.5rem;
     width: 15.5rem;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -143,7 +127,6 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;  
-
   }
   .footer-2 {
     position: fixed;
@@ -153,8 +136,6 @@ a {
     color: black;
     text-align: center
   }
-
-
     footer {
         position: fixed;
         left: 0;
@@ -220,9 +201,6 @@ a {
     .right:hover {
         background: yellow;
     }
-    
-    
-
     * {
         margin: 0;
         padding: 0;
@@ -232,10 +210,8 @@ a {
           display: flex;
           text-align: left;
       }
-     
       .contact-Email-number{
-          display: none;
-          
+          display: none; 
       }
       .image{
           display: flex;
@@ -244,7 +220,6 @@ a {
           right: -75%;
           height: 17rem;
           width: 4rem;
-      
       }
       .informations {
         display: flex;
@@ -259,7 +234,6 @@ a {
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;  
-    
       }
       h1{
           display: contents;
