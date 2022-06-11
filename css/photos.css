@@ -64,7 +64,7 @@ li {
     background-position: center;   
 }
 .images {
-  padding: 5px; 
+    padding: 5px; 
     text-align: center;    
 }
 .face {
@@ -75,7 +75,6 @@ li {
     display: flex;
     justify-content: center;
     height: 100rem;
-    width: 94rem;
     flex-wrap: wrap;
 
 }

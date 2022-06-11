@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 header{
     background-color: gray;
 }
-
+.lobel{
+   background-color: black;
+   display: flex;
+   border-radius: 50px;
+   height: 26px; 
+   width: 50px;
+}
+.ball{
+    width: 22px
+}
+.fa-moon{
+    color: #f1c40f;
+    
+}
+.fa-sun{
+    color: #f39c12;
+}
 .page-link{
     display: flex;
     justify-content: space-between;
@@ -25,7 +42,7 @@ a {
  
   li a {
     display: block;
-    color: white; 
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,6 +50,7 @@ a {
   }
   body{
       margin-top: 51px;
+      background-color: var(--primary-color);
         
   }
   .navbar{
@@ -143,7 +161,7 @@ h2 {
     text-align: center;
 }
 .background-color {
-    background-color: white;
+    background-color: var(--primary-color);
 }
 .transition {
    margin-top: 60px; 
@@ -153,10 +171,7 @@ h2 {
 .reviews-all {
     margin-top: 60px;
     display: flex;
-    justify-content: center;
-    width: 1000px;
-    
-    
+    justify-content: center;  
 }
 .reviews {
     display: flex;
