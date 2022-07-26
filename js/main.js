@@ -1,5 +1,6 @@
 const acc = document.querySelectorAll(".accordion-item-header");
-for(let index = 0; index < acc.length; index++) {
+const accordion_button = () => {
+  for(let index = 0; index < acc.length; index++) {
     acc[index].addEventListener('click', function() {
     acc[index].classList.toggle('active');
     let panel = acc[index].nextElementSibling;
@@ -12,6 +13,8 @@ for(let index = 0; index < acc.length; index++) {
     }
     });
   };
+}
+accordion_button()
 
   const hamburger = document.querySelector(".hamburger")
   const navMenu = document.querySelector(".nav-menu")
@@ -36,7 +39,7 @@ for(let i = 0; i < acc.length; i++){
       
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-      
+
     }
     };
     
