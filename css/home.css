@@ -9,9 +9,7 @@ header{
    height: 26px; 
    width: 50px;
 }
-.ball{
-    width: 22px
-}
+
 .fa-moon{
     color: #f1c40f;
     
@@ -29,7 +27,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: black;
-    
+    opacity: 0.7;
 }
 li {
   list-style: none;
@@ -143,7 +141,7 @@ a {
     height: 200px;
     width: 16.5rem;
     left: 43%;
-    
+  
 }
 .photos {
     display: flex;
@@ -175,14 +173,14 @@ h2 {
 }
 .reviews {
     display: flex;
-    margin: 30px;
+    margin: 0 auto;
     background: url(../images/blue_brushstroke.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
    
-p {
+.p-review {
     display: flex;
     margin-top: 100px;
     font-size: 25px;
@@ -217,7 +215,27 @@ p {
    width: 500px;
    left: 30%;
 }
+.Event-Date{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    position: relative;
+}
+
+.Event-information{
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 18px;
+}
 @media all and (max-width: 768px){
+    body{
+        height: 100vh;
+        background-color: var(--primary-color);
+          
+    }
     .hamburger{
        display: block; 
     }
@@ -254,12 +272,13 @@ p {
         left: 0;
     }
     .navbar{
-        min-height: 70px;
+        min-height: 1px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 24px;
         width: 100%;
+        background-color: yellow;
     }
     .background {
         display: flex;
@@ -272,13 +291,22 @@ p {
         width: 100%;
         padding: 0px;
     }
+    .title-1 {
+        margin-top: 51px;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        font-size: 80px;
+        font-family: 'Dr Sugiyama', cursive;
+    }
     .images-one-box {
         display: flex;
         position: relative;
         left: 0px;
         flex-direction: column;
-        margin-top: 5rem;
-        height: 90rem;
+        height: 50rem;
         width: 100%;
     }
     .images-two-box {
@@ -286,9 +314,9 @@ p {
         position: relative;
         left: 0px;
         flex-direction: column;
-        height: 90rem;
+        height: 70rem;
         width: 100%;
-        margin-top: 15rem;
+        margin-top: 125px;
     }
     .right:hover {
         background: yellow;
@@ -304,7 +332,7 @@ p {
         background: url();
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: left;
+        background-position: center;
         margin-top: 73%;
     }
     * {
@@ -315,7 +343,6 @@ p {
       .transition-2{
         display: flex;
         position: relative;
-        margin-top: 100rem;
         height: 50%; 
         width: 100%;
       }
@@ -340,22 +367,25 @@ p {
      .reviews-all {
         margin-top: 60px;
         display: flex;
+        flex-direction: column;
         position: relative;
         justify-content: center;
-        left: -25%;
+        
     }
     p {
         display: flex;
         position: relative;
-        left: -100%;
-        margin-top: 20rem;
+     
         font-size: 25px;
         text-align: center;  
     }
     .reviews-images {
         border-radius: 20%;
-        height: 15rem;
-        width: 100%;
+        height: 25rem;
+        width: 0 auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .reviews {
         display: flex;
@@ -368,7 +398,7 @@ p {
     .p-review{
         display: flex;
         position: relative;
-        left: 9%
+        left: 4%;
     }
 .reviews-all-two {
     display: flex;
@@ -378,7 +408,18 @@ p {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
+.Event-Date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+.Event-information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+}
 }
    

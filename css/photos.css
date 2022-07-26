@@ -37,6 +37,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: black;
+    opacity: 0.7;
 }
 li {
     float: left;
@@ -80,7 +81,7 @@ li {
 }
 .photos img {
     transition: 1s;
-    margin: 60px;
+    margin: 50px;
   }
  .photos img:hover {
     filter: grayscale(100%);
@@ -91,7 +92,7 @@ li {
     justify-content: space-between;
     height: 15rem;
     width: 20rem;
-    margin: 60px;
+    margin: 10px;
     flex-direction: column;
   }
   * {

@@ -60,6 +60,7 @@ ul{
     padding: 0;
     overflow: hidden;
     background-color: black;
+    opacity: 0.7;
 }
 li {
     float: left;
@@ -153,6 +154,10 @@ a {
         padding: 10px;
         margin-top: 10px;
         text-align: center;
+    }
+    #Teresa-photo{
+       
+
     }
   @media all and (max-width: 768px){
     .hamburger{
