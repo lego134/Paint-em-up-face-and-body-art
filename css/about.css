@@ -80,7 +80,7 @@ a {
     text-align: center;
     font-size: 50px;
 }
-.right:hover {
+.hover:hover {
     background: gray;
 }
 .about{
@@ -155,10 +155,7 @@ a {
         margin-top: 10px;
         text-align: center;
     }
-    #Teresa-photo{
-       
-
-    }
+  
   @media all and (max-width: 768px){
     .hamburger{
        display: block; 

@@ -98,7 +98,7 @@ a {
     font-size: 100px;
     font-family: 'Dr Sugiyama', cursive;
 }
-.right:hover {
+.hover:hover {
     background: gray;
 }
 .home {
