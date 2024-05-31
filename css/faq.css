@@ -140,29 +140,29 @@ button {
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+body {
     margin-top: 51px;
     background-color: #34495e;
     color: white;
   }
-  h1 {
+h1 {
     text-align: center;
     margin: 2rem 0;
     font-size: 2.5rem;
   }
-  .accordion {
+.accordion {
     width: 90%;
     max-width: 1000px;
     margin: 2rem auto;
   }
-  .accordion-item {
+.accordion-item {
     background-color: white;
     color: #111;
     margin: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
   }
-  .accordion-item-header {
+.accordion-item-header {
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
@@ -172,14 +172,14 @@ button {
     position: relative;
     cursor: pointer;
   }
-  .accordion-item-header::after{
+.accordion-item-header::after{
     content: '\02C3';
     font-size: 2rem;
     position: absolute;
     right: 1rem;
     transition: transform 0.2s ease-in-out;
   }
-  .accordion-item-header.active::after {
+.accordion-item-header.active::after {
     content: '\02C5';
   }
 .accordion-item-body {
@@ -192,7 +192,7 @@ button {
     line-height: 1.5rem;
     border-top: 3px solid;
     border-image: linear-gradient(to right, #008f68, #fac042) 1;
- }
+}
   footer {
     display: block;
     color: white;
@@ -277,7 +277,5 @@ button {
     .left{
         display: none;
     }
-    
-   
 }
    

@@ -38,7 +38,7 @@ a {
 
   }
  
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -46,38 +46,38 @@ a {
     text-decoration: none;
  
   }
-  body{
+body{
       margin-top: 51px;
       background-color: var(--primary-color);
         
   }
-  .navbar{
+.navbar{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-  }
-  .nav-menu{
+}
+.nav-menu{
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
-  }
+}
 
-  .hamburger{
-      display: none;
-      cursor: pointer;
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block; 
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
   }
-  .bar{
-     display: block; 
-     width: 25px;
-     height: 3px;
-     margin: 5px auto;
-     -webkit-transition: all 0.3s ease-in-out;
-     transition: all 0.3s ease-in-out;
-     background-color: black;
-  }
-  .background {
+.background {
     display: flex;
     background: url(../images/background2.jpg);
     background-size: cover;
